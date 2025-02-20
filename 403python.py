@@ -1,7 +1,7 @@
 import requests
 
 # Target URL
-url = "https://test1.mohammadlotfi.com/wp-content/plugins/ultimate-member/"
+url = "HTTP://example.com"
 
 # List of HTTP methods to try
 methods = ["GET", "POST", "PUT", "DELETE", "OPTIONS", "HEAD"]
@@ -10,7 +10,7 @@ methods = ["GET", "POST", "PUT", "DELETE", "OPTIONS", "HEAD"]
 headers_list = [
     {"User-Agent": "Mozilla/5.0"},
     {"X-Forwarded-For": "127.0.0.1"},
-    {"Referer": "https://test1.mohammadlotfi.com/wp-content/plugins/ultimate-member/"},
+    {"Referer": "HTTP://example.com"},
     {"X-Original-URL": "/restricted"},
     {"X-Custom-IP-Authorization": "127.0.0.1"},
 ]
